@@ -57,13 +57,13 @@ Argument and its parameter has to be separated by a single space.
 
 **Example 1:** 
 
-encryption; the arguments are: `-mode enc -key 5 -data "Welcome to hyperskill!"`
+encryption; the arguments are: `-mode enc -key 5 -data "Welcome to hyperskill!" -alg unicode`
 
     Output to the console: \jqhtrj%yt%m~ujwxpnqq&
 
 **Example 2:** 
 
-decryption; the arguments are: `-key 5 -data "\jqhtrj%yt%m~ujwxpnqq&" -mode dec`
+decryption; the arguments are: `-key 5 -data "\jqhtrj%yt%m~ujwxpnqq&" -mode dec -alg unicode`
 
     Output to the console: Welcome to hyperskill!
 
